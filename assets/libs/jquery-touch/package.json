@@ -1,0 +1,13 @@
+{
+  "name": "jquery-touch",
+  "version": "1.0.0",
+  "description": "jQuery-touch.js Inspired by Zepto, it easy use.",
+  "homepage": "https://github.com/wushuyi/jQuery-touch",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/wushuyi/jQuery-touch.git"
+    }
+  ],
+  "author": "https://github.com/wushuyi"
+}
