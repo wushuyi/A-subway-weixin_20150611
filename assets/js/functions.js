@@ -65,5 +65,4 @@ var s = skrollr.init({
             return Math.sin(p);
         }
     },
-
 });

@@ -66,6 +66,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     right: 0;
     bottom: 0;
     background-color: #DD5536;
+    overflow: hidden;
     /*background-image: url("../images/test/page1.png");*/
 }
 
@@ -96,9 +97,11 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 583px;
     width: 43px;
     height: 50px;
+    z-index: 2;
 }
 
 .p1-4 {
+    transform-origin: top;
     background-image: url("../images/p1/img4.png");
     left: 29px;
     top: 273px;
@@ -137,6 +140,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 57px;
     width: 148px;
     height: 153px;
+
 }
 
 .p2-4 {
@@ -145,6 +149,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 228px;
     width: 475px;
     height: 259px;
+
 }
 
 .p2-3 {
@@ -203,6 +208,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 174px;
     width: 242px;
     height: 181px;
+    z-index: 3;
 }
 
 .p4-2 {
@@ -219,6 +225,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 240px;
     width: 1398px;
     height: 1395px;
+    z-index: 1;
 }
 
 .p4-6 {
@@ -251,6 +258,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 77px;
     width: 296px;
     height: 107px;
+    z-index: 1;
 }
 
 .p4-5  {
