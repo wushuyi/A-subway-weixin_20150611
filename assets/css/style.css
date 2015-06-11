@@ -23,6 +23,116 @@ mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: b
 input:-moz-placeholder { color:#a9a9a9; }
 textarea:-moz-placeholder { color:#a9a9a9; }
 
+#load{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #DD5536;
+    z-index: 999;
+}
+.loader-inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -100px;
+    transform: scale(2);
+}
+.ball-triangle-path > div {
+    background-color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
+.loading{
+    font-size: 60px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 120px;
+    height: 68px;
+    margin-left: -60px;
+    margin-top: -34px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #DD5536;
+    /*background-image: url("../images/test/page1.png");*/
+}
+
+.imgs{
+    position: absolute;
+}
+
+
+.p1-1 {
+    background-image: url("../images/p1/img1.png");
+    left: 222px;
+    top: 897px;
+    width: 161px;
+    height: 30px;
+}
+
+.p1-2 {
+    background-image: url("../images/p1/img2.png");
+    left: 222px;
+    top: 654px;
+    width: 205px;
+    height: 216px;
+    z-index: 6;
+}
+
+.p1-3 {
+    background-image: url("../images/p1/img3.png");
+    left: 303px;
+    top: 583px;
+    width: 43px;
+    height: 50px;
+}
+
+.p1-4 {
+    background-image: url("../images/p1/img4.png");
+    left: 29px;
+    top: 273px;
+    width: 590px;
+    height: 310px;
+}
+
+.p1-5{
+    background-image: url("../images/p1/img5.png");
+    left: 263px;
+    top: 94px;
+    width: 113px;
+    height: 112px;
+}
+
+.p1-6 {
+    background-image: url("../images/p1/img6.png");
+    left: 21px;
+    top: 1000px;
+    width: 598px;
+    height: 8px;
+}
+
+.p1-7 {
+    background-image: url("../images/p1/img7.png");
+    left: 22px;
+    top: 943px;
+    width: 594px;
+    height: 65px;
+}
+
+
+
 
 
 /* Media queries
