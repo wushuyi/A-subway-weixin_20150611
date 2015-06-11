@@ -73,7 +73,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     position: absolute;
 }
 
-
+/*第一屏*/
 .p1-1 {
     background-image: url("../images/p1/img1.png");
     left: 222px;
@@ -88,7 +88,6 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 654px;
     width: 205px;
     height: 216px;
-    z-index: 6;
 }
 
 .p1-3 {
@@ -131,8 +130,178 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     height: 65px;
 }
 
+/*第二屏*/
+.p2-2 {
+    background-image: url("../images/p2/img2.png");
+    left: 245px;
+    top: 57px;
+    width: 148px;
+    height: 153px;
+}
 
+.p2-4 {
+    background-image: url("../images/p2/img4.png");
+    left: 92px;
+    top: 228px;
+    width: 475px;
+    height: 259px;
+}
 
+.p2-3 {
+    background-image: url("../images/p2/img3.png");
+    left: 0px;
+    top: 227px;
+    width: 568px;
+    height: 840px;
+}
+
+.p2-1 {
+    background-image: url("../images/p2/img1.png");
+    left: 216px;
+    top: 841px;
+    width: 227px;
+    height: 150px;
+}
+
+/*第三屏*/
+.p3-3 {
+    background-image: url("../images/p3/img3.png");
+    left: 112px;
+    top: 89px;
+    width: 309px;
+    height: 176px;
+}
+
+.p3-2 {
+    background-image: url("../images/p3/img2.png");
+    left: 450px;
+    top: 127px;
+    width: 168px;
+    height: 138px;
+}
+
+.p3-1 {
+    background-image: url("../images/p3/img1.png");
+    left: 57px;
+    top: 290px;
+    width: 1769px;
+    height: 1774px;
+}
+
+.p3-4 {
+    background-image: url("../images/p3/img4.png");
+    left: 57px;
+    top: 845px;
+    width: 89px;
+    height: 87px;
+}
+
+/*第四屏*/
+.p4-1 {
+    background-image: url("../images/p4/img1.png");
+    left: 239px;
+    top: 174px;
+    width: 242px;
+    height: 181px;
+}
+
+.p4-2 {
+    background-image: url("../images/p4/img2.png");
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+.p4-3 {
+    background-image: url("../images/p4/img3.png");
+    left: -806px;
+    top: 240px;
+    width: 1398px;
+    height: 1395px;
+}
+
+.p4-6 {
+    background-image: url("../images/p4/img6.png");
+    left: -166px;
+    top: 428px;
+    width: 582px;
+    height: 426px;
+}
+
+.p4-7 {
+    background-image: url("../images/p4/img7.png");
+    left: 152px;
+    top: 327px;
+    width: 220px;
+    height: 57px;
+}
+
+.p4-8 {
+    background-image: url("../images/p4/img8.png");
+    left: 66px;
+    top: 85px;
+    width: 173px;
+    height: 126px;
+}
+
+.p4-4 {
+    background-image: url("../images/p4/img4.png");
+    left: 296px;
+    top: 77px;
+    width: 296px;
+    height: 107px;
+}
+
+.p4-5  {
+    background-image: url("../images/p4/img5.png");
+    left: -14px;
+    top: -2px;
+    width: 668px;
+    height: 1021px;
+}
+
+/*第五屏*/
+.p5-1 {
+    background-image: url("../images/p5/img1.png");
+    left: 77px;
+    top: 80px;
+    width: 195px;
+    height: 111px;
+}
+
+.p5-2 {
+    background-image: url("../images/p5/img2.png");
+    left: 77px;
+    top: 80px;
+    width: 269px;
+    height: 158px;
+}
+
+.p5-3 {
+    background-image: url("../images/p5/img3.png");
+    left: 77px;
+    top: 293px;
+    width: 1050px;
+    height: 1052px;
+}
+
+.p5-4 {
+    background-image: url("../images/p5/img4.png");
+    left: 413px;
+    top: 57px;
+    width: 170px;
+    height: 157px;
+}
+
+/*第六屏*/
+.p6-1 {
+    background-image: url("../images/p6/img1.png");
+    left: 87px;
+    top: 568px;
+    width: 465px;
+    height: 352px;
+}
 
 
 /* Media queries
