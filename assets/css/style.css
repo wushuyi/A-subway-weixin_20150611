@@ -209,14 +209,16 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     width: 242px;
     height: 181px;
     z-index: 3;
+    transform-origin: 100% 100%;
 }
 
 .p4-2 {
     background-image: url("../images/p4/img2.png");
-    left: 0px;
-    top: 0px;
-    width: 0px;
-    height: 0px;
+    left: 90px;
+    top: 833px;
+    width: 172px;
+    height: 209px;
+    z-index: 2;
 }
 
 .p4-3 {
@@ -234,6 +236,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 428px;
     width: 582px;
     height: 426px;
+    z-index: 2;
 }
 
 .p4-7 {
@@ -242,6 +245,8 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 327px;
     width: 220px;
     height: 57px;
+    z-index: 2;
+    transform-origin: 50% 0%;
 }
 
 .p4-8 {
@@ -263,10 +268,11 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 
 .p4-5  {
     background-image: url("../images/p4/img5.png");
-    left: -14px;
-    top: -2px;
-    width: 668px;
-    height: 1021px;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*第五屏*/
@@ -276,6 +282,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 80px;
     width: 195px;
     height: 111px;
+    z-index: 1;
 }
 
 .p5-2 {
@@ -309,6 +316,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
     top: 568px;
     width: 465px;
     height: 352px;
+    transform-origin: 50% 100%;
 }
 
 

@@ -1,5 +1,6 @@
 var $el = {};
 var cache = {};
+$el.wrapper = $('.wrapper');
 $el.loadBox = $('#load');
 $el.loadProgress = $('.progress', $el.loadBox);
 
@@ -66,3 +67,15 @@ var s = skrollr.init({
         }
     },
 });
+s.setScrollTop(8912);
+//cache.bgLock = false;
+s.on('beforerender', function(data){
+    //console.log(data);
+    //if(!cache.bgLock && data.curTop >= 4460){
+    //    cache.bgLock = true;
+    //    $el.wrapper.css('background-image', 'url("./assets/images/p4/img5.png")');
+    //}else if(cache.bgLock && data.curTop <= 4460){
+    //    cache.bgLock = false;
+    //    $el.wrapper.css('background-image', '');
+    //}
+})
