@@ -72,6 +72,7 @@ var s = skrollr.init({
     },
 });
 //cache.bgLock = false;
+/*
 s.on('beforerender', function (data) {
     //console.log(data);
     //if(!cache.bgLock && data.curTop >= 4460){
@@ -81,4 +82,4 @@ s.on('beforerender', function (data) {
     //    cache.bgLock = false;
     //    $el.wrapper.css('background-image', '');
     //}
-})
+})*/
