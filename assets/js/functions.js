@@ -44,32 +44,35 @@ var manifest = [
     'p6/img1.png'
 ];
 var preload = new createjs.LoadQueue(false, imgPath);
-preload.on("progress", function(load){
-    $el.loadProgress.text(parseInt(load.progress * 100));
+preload.on("progress", function (load) {
+    //$el.loadProgress.text(parseInt(load.progress * 100));
+    $el.loadProgress.width(load.progress * 100 + '%');
 });
-preload.on("complete", function(){
-    $el.loadBox.remove();
+preload.on("complete", function () {
+    setTimeout(function () {
+        $el.loadBox.remove();
+    }, 400);
+
 });
-preload.on("error", function(){
+preload.on("error", function () {
     console.log(arguments);
 });
 preload.setMaxConnections(5);
-$.each(manifest, function(index, item){
+$.each(manifest, function (index, item) {
     preload.loadFile(item);
 });
 
 var s = skrollr.init({
     edgeStrategy: 'set',
     easing: {
-        shake: function(p){
+        shake: function (p) {
             p *= 16;
             return Math.sin(p);
         }
     },
 });
-s.setScrollTop(8912);
 //cache.bgLock = false;
-s.on('beforerender', function(data){
+s.on('beforerender', function (data) {
     //console.log(data);
     //if(!cache.bgLock && data.curTop >= 4460){
     //    cache.bgLock = true;

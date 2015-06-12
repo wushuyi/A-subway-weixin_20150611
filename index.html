@@ -1,52 +1,53 @@
 <!doctype html><!-- html5 doctype -->
-<!--
-    MyWebBoot A simple set of standard templates to quickly begin to build a web page
-	power by shuyi.wu 
-	free to use
--->
-
 <!-- modernizr处理各版本IE -->
-<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
-<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!--[if lt IE 7 ]>
+<html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en"><!--<![endif]-->
 <head>
-	<!-- 字符集编码 -->
-	<meta charset="utf-8">
-	<!-- 兼容性模式 -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-	<!-- 页面标题 -->
-	<title></title>
-	<!-- 作者 -->
-	<meta name="author" content="shuyi.wu" />
-	<!-- 页面内容简介 有助于搜索引擎分析 -->
-	<meta name="description" content="" />
-	<!-- 所属 -->
-	<meta name="Copyright" content="wushuyi" />
-	<!-- 移动端视图 -->
+    <!-- 字符集编码 -->
+    <meta charset="utf-8">
+    <!-- 兼容性模式 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 页面标题 -->
+    <title></title>
+    <!-- 作者 -->
+    <meta name="author" content="shuyi.wu"/>
+    <!-- 页面内容简介 有助于搜索引擎分析 -->
+    <meta name="description" content=""/>
+    <!-- 所属 -->
+    <meta name="Copyright" content="wushuyi"/>
+    <!-- 移动端视图 -->
     <meta name="viewport" content="width=640,target-densitydpi=device-dpi,user-scalable=no"/>
-	<!-- 页面标题图标 -->
-	<!--<link rel="shortcut icon" href="favicon.ico" />-->
-	<!-- css头部加载 有助于 浏览器 渲染 -->
-	<link rel="stylesheet" href="./assets/css/reset.css" /><!-- css 重置 -->
-    <!--<link rel="stylesheet" href="./assets/css/loaders.css"/>-->
-	<link rel="stylesheet" href="./assets/css/style.css" />
-	<!-- modernizr 用于处理 各浏览器 兼容 因为要 处理css样式兼容 所以 头部加载 -->
-	<script src="assets/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <!-- 页面标题图标 -->
+    <!--<link rel="shortcut icon" href="favicon.ico" />-->
+    <!-- css头部加载 有助于 浏览器 渲染 -->
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <!-- css 重置 -->
+    <link rel="stylesheet" href="./assets/css/loaders.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <!-- modernizr 用于处理 各浏览器 兼容 因为要 处理css样式兼容 所以 头部加载 -->
+    <script src="assets/libs/modernizr/2.8.3/modernizr.min.js"></script>
 </head>
 
 <body>
 <!-- 为何要用这个 div? 请看http://camendesign.com/code/developpeurs_sans_frontieres -->
 <div id="load">
-    <!--<div class="loader-inner ball-triangle-path">-->
-        <!--<div></div>-->
-        <!--<div></div>-->
-        <!--<div></div>-->
-    <!--</div>-->
-    <div class="loading">
-        <span class="progress">0</span>%
+    <div class="loader-inner ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
+    <!--<div class="loading" style="display: none;">-->
+    <!--<span class="progress">0</span>%-->
+    <!--</div>-->
+    <div class="progress"></div>
 </div>
 <div class="wrapper">
     <!--第一屏-->
@@ -103,14 +104,14 @@
 
     <!--第三屏-->
     <div class="imgs p3-1"
-         data-1840 ="transform: translate3d(580px, 548px, 0);"
+         data-1840="transform: translate3d(580px, 548px, 0);"
          data-3606="transform: translate3d(-1186px , -1217px, 0);"
          data-4454="transform: translate3d(-1186px , -2065px, 0);"
             ></div>
     <div class="imgs p3-2"
-         data-2141 ="transform: translate3d(0px, -300px, 0);"
-         data-2383 ="transform: translate3d(0px, 0px, 0);"
-         data-3606 ="transform: translate3d(0px, 0px, 0);"
+         data-2141="transform: translate3d(0px, -300px, 0);"
+         data-2383="transform: translate3d(0px, 0px, 0);"
+         data-3606="transform: translate3d(0px, 0px, 0);"
          data-3906="transform: translate3d(0px , -300px, 0);"
             ></div>
     <div class="imgs p3-3"
@@ -128,10 +129,10 @@
 
     <!--第四屏-->
     <div class="imgs p4-5"
-         data-3611="top: 100%;"
+         data-3611="top: 101%;"
          data-4454="top: 0%;"
          data-6660="top: 0%;"
-         data-7359="top: -100%;"
+         data-7359="top: -101%;"
             ></div>
     <div class="imgs p4-1"
          data-5370="transform: scale3d(0, 0, 0) translate3d(0px, 0px, 0px);"
@@ -143,7 +144,7 @@
          data-4924="transform: translate3d(600px ,0px, 0);"
          data-5366="transform: translate3d(0px, 0px, 0px);"
          data-5560="transform: translate3d(0px, 0px, 0px);"
-         data-5760="transform: translate3d(0px, 200px, 0px);"
+         data-5860="transform: translate3d(0px, 300px, 0px);"
             ></div>
     <div class="imgs p4-3"
          data-4766="transform: translate3d(-600px, 600px, 0px);"
@@ -192,8 +193,8 @@
             ></div>
     <div class="imgs p5-3"
          data-7578="transform: translate3d(564px, 564px, 0px);"
-         data-8628="transform: translate3d(-486px, -486px, 0px);"
-         data-9502="transform: translate3d(-486px, -1360px, 0px);"
+         data-8618="transform: translate3d(-476px, -476px, 0px);"
+         data-9492="transform: translate3d(-476px, -1350px, 0px);"
             ></div>
     <div class="imgs p5-4"
          data-7338="transform: translate3d(240px, 0px, 0px);"
