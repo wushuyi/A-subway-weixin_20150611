@@ -1,5 +1,5 @@
-function main() {
-    'use strict';
+//function main() {
+//    'use strict';
 
     var $el = {};
     var cache = {};
@@ -73,7 +73,7 @@ function main() {
                 p *= 16;
                 return Math.sin(p);
             }
-        },
+        }
     });
     //cache.bgLock = false;
     /*
@@ -88,5 +88,5 @@ function main() {
      //}
      })*/
 
-}
-$.fn.ready(main);
+//}
+//$.fn.ready(main);
