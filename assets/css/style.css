@@ -26,8 +26,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 #load{
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    width: 640px;
     bottom: 0;
     background-color: #DD5536;
     z-index: 999;
@@ -66,11 +65,11 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 .wrapper{
     position: absolute;
     top: 0;
-    left: 0;
-    right: 0;
+    width: 640px;
     bottom: 0;
     background-color: #DD5536;
     overflow: hidden;
+    display: none;
     /*background-image: url("../images/test/page1.png");*/
 }
 
@@ -317,10 +316,15 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 .p6-1 {
     background-image: url("../images/p6/img1.png");
     left: 87px;
-    top: 568px;
+    bottom: 100px;
     width: 465px;
     height: 352px;
     transform-origin: 50% 100%;
+}
+.p6-2{
+    position: absolute;
+    top: 150px;
+    left: 0px;
 }
 
 

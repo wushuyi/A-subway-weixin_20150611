@@ -52,6 +52,7 @@ function main() {
         $el.loadProgress.width(load.progress * 100 + '%');
     });
     preload.on("complete", function () {
+        $el.wrapper.show();
         setTimeout(function () {
             $el.loadBox.remove();
         }, 400);
